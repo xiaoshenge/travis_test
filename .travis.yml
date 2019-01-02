@@ -7,5 +7,5 @@ before_script:
 script:
   - echo "test done"
 after_success:
-  - docker build -t xiaoshenge/alpine
+  - docker build -t xiaoshenge/alpine .
   - docker push xiaoshenge/alpine
